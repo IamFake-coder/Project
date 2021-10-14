@@ -1,0 +1,100 @@
+title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Nexa Light';
+    color: rgb(44, 41, 36);
+    
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body{
+    background-image: url(work.jpg);
+    background-size: cover;   
+    background-position: center center;
+    background-attachment: fixed;
+}
+nav {
+    background-color: #C4F5EE ;
+}
+.jumbotron{
+    opacity:0.7;
+    margin: 100px;
+}
+.btn {
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    opacity: 0.9;
+    border-radius: 4px;
+}
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+.footer-bottom {
+    color: antiquewhite;
+    font-size: 15px;
+    padding: 30px 0 20px 0;
+}
+.lesson-icon img{
+    width: 450px;
+}
+.lesson-icon p{
+    color:rgb(34, 32, 27);
+}
+
+.text-contents1 {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+    margin-left: 30px;
+  }
+  .text-contents2 {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+    margin-left: 30px;
+  }
+  .text-contents3 {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+    margin-left: 30px;
+    
+  }
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 50px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  .btn-wrapper{
+      background-color: rgb(173, 138, 138);
+      width:200px;
+      margin:50px 0 50px 650px;
+  }
+  .carousel-inner img{
+      margin: 50px 0 0 450px;
+      height: 400px;
+      width: 600px
+
+  }
+  .card{
+      margin:120px;
+      text-align: center;
+  }
