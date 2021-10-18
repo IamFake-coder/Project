@@ -1,0 +1,82 @@
+body{
+    background-image: url(nattu-adnan-Ai2TRdvI6gM-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand {
+    margin: 10px;
+}
+@media only screen and (min-width: 600px) {
+    .container{
+        margin-left: 150px;  
+    }
+    
+.col{
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    box-shadow: 4px 4px 10px black;
+    width: 400px;
+    height: 400px;
+    margin: 40px 0 -15px 0;
+    padding: 20px 30px 0 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+}
+
+.footer{
+    box-shadow: 1px 2px 10px black;
+    height: 200px;
+    
+}
+.footer-head-name{
+    margin-top: 140px;
+    padding: 40px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-contact{
+    margin-left: 380px;
+    margin-top: -190px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-bottom{
+    margin: 60px 0;
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+.footer-contact .btn{
+    margin-left: -10px;
+}
+.footer-head-name .btn{
+    margin-left: -10px;
+}
+.profile-image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-style: groove;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+.card .name{
+    font-size: large;
+    margin-top: -10px;
+}
+.card .designation{
+    font-size: small;
+    margin-top: -10px;
+}
+.card .button{
+    margin-top: 10px;
+    align-self: center;
+    width: 50%;
+    
+}
