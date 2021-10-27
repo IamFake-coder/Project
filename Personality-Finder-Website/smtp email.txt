@@ -1,0 +1,4 @@
+smtp.gmail.com
+ytedwin1995@gmail.com
+pass: its in google note!
+secure token: "kdxblogcqkrnegac"

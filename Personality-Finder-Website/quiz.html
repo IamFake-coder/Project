@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--BootStrap Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--Main Css-->
+    <link rel="stylesheet" href="quiz.css">
+    <title>Seikaku Finder | Take the test</title>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="logo.png" width="30" height="30" alt="logo"> Seikaku Finder</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="quiz.html" target="_blank">Take the test!</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              MBTI Types
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Introverted Sensing</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="inspector.html">ISTJ - The Inspector</a> </li>
+                  <li><a class="dropdown-item" href="crafter.html">ISTP - The Crafter</a> </li>
+                  <li><a class="dropdown-item" href="protector.html">ISFJ - The Protector</a> </li>
+                  <li><a class="dropdown-item" href="artist.html">ISFP - The Artist</a> </li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Introverted Intuitive</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="advocate.html">INFJ - The Advocate</a> </li>
+                  <li><a class="dropdown-item" href="mediator.html">INFP - The Mediator</a> </li>
+                  <li><a class="dropdown-item" href="architect.html">INTJ - The Architect</a> </li>
+                  <li><a class="dropdown-item" href="thinker.html">INTP - The Thinker</a> </li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Extraverted Sensing</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="persuader.html">ESTP - The Persuader</a> </li>
+                  <li><a class="dropdown-item" href="director.html">ESTJ - The Director</a> </li>
+                  <li><a class="dropdown-item" href="performer.html">ESFP - The Perfomer</a> </li>
+                  <li><a class="dropdown-item" href="caregiver.html">ESFJ - The Caregiver</a> </li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Extraverted Intuitive</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="champion.html">ENFP - The Champion</a> </li>
+                  <li><a class="dropdown-item" href="giver.html">ENFJ - The Giver</a> </li>
+                  <li><a class="dropdown-item" href="debator.html">ENTP - The Debater</a> </li>
+                  <li><a class="dropdown-item" href="commander.html">ENTJ - The Commander</a> </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" target="_blank">About us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <section>
+        <div class="container">
+          <h1>Give your answers a deep thought for best result!</h1>
+          <hr>
+          <form name="form" id="form" method="post" action="javascript:a()">
+            <h6>1. I don’t enjoy hearing stories that have a definitive ending. They feel less real to me.</h6> <!-- Thinking-->
+            <h6>Disagree 
+            <label class="radio">
+              <input type="radio" name="thinking1" id="thinking1" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking1" id="thinking2" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking1" id="thinking3" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking1" id="thinking4" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking1" id="thinking5" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>2. Sometimes I like to fantasize that I’m an animal or imagine how it would feel to be an animal.</h6>
+            <h6>Disagree 
+            <label class="radio">
+              <input type="radio" name="thinking2" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking2" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking2" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking2" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking2" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>3. I find myself daydreaming a lot.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="thinking3" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking3" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking3" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking3" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking3" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>4. I don’t believe the philosophy that says "There’s a place for everything, and everything should be in its place."</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="thinking4" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking4" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking4" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking4" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking4" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>5. I don’t support companies that have strict policies and guidelines.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="thinking5" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking5" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking5" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking5" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="thinking5" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>6. I’m not normally a sensible or level-headed person.</h6> <!-- feeling -->
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="feeling1" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling1" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling1" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling1" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling1" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>7. It’s not hard for me to remember feelings I had as a child.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="feeling2" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling2" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling2" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling2" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling2" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>8. My feelings are hurt easily</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="feeling3" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling3" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling3" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling3" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling3" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>9. Getting too close to someone and too involved in their lives is scary.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="feeling4" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling4" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling4" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling4" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling4" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>10. When a friend or partner has a bad day, it feels like I’ve had one, too.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="feeling5" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling5" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling5" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling5" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="feeling5" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>11. Do you often long for excitement.</h6>  <!--Extraversion-->
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="extraversion1" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion1" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion1" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion1" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion1" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>12. Do you generally do and say things quickly without stopping to think.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="extraversion2" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion2" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion2" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion2" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion2" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>13. Do you like going out a lot.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="extraversion3" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion3" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion3" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion3" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion3" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>14. Can you usually let yourself go and enjoy yourself a lot at a lively party.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="extraversion4" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion4" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion4" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion4" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion4" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>15. Do you like talking to person so much that you never miss a chance of talking to a stranger.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="extraversion5" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion5" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion5" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion5" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="extraversion5" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>16. Are your feelings rather easily hurt.</h6> <!--Introversion-->
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="introversion1" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion1" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion1" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion1" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion1" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>17. Do you often worry about things you should have done or said.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="introversion2" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion2" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion2" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion2" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion2" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>18. Do you suddenly fell shy when you want to talk to an attractive stranger.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="introversion3" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion3" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion3" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion3" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion3" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>19. Do you stop and think things over before doing anything.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="introversion4" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion4" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion4" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion4" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion4" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>20. Do you prefer to have few but special friends.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="introversion5" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion5" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion5" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion5" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="introversion5" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>21. You like to work from a to-do list.</h6>  <!--Judging-->
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="judging1" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging1" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging1" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging1" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging1" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>22. Your car/house/desk often very untidy or does it take you quite some willpower to keep things tidy.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="judging2" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging2" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging2" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging2" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging2" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>23. You like to make decisions quick or do you like to take your time to look at it from different sides.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="judging3" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging3" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging3" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging3" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging3" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>24. You like everything to be controlled or done as per you.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="judging4" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging4" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging4" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging4" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging4" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>25. You like to have the closure about the things that might be troubling you.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="judging5" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging5" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging5" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging5" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="judging5" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>26. You like to stay open to respond to whatever happens. </h6>  <!--Perceiving-->
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="perceiving1" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >   
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving1" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving1" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving1" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving1" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>27. You appear to be loose and casual. I like to keep plans to a minimum.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="perceiving2" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving2" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving2" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving2" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving2" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>28. You work in bursts of energy. </h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="perceiving3" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving3" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving3" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving3" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving3" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>29. You am stimulated by an approaching deadline. </h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="perceiving4" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving4" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving4" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving4" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving4" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>30. Sometimes I stay open to new information so long I miss making decisions when they are needed.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="perceiving5" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving5" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving5" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving5" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="perceiving5" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>31. You remember events as snapshots of what actually happened. </h6>  <!--Sensing-->
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="sensing1" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing1" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing1" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing1" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing1" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>32. You solve problems by working through facts until I understand the problem.</h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="sensing2" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing2" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing2" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing2" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing2" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>33. You are pragmatic and look to the "bottom line." </h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="sensing3" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing3" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing3" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing3" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing3" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>34. You start with facts and then form a big picture. </h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="sensing4" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing4" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing4" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing4" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing4" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>35. You trust experience first and trust words and symbols less. </h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="sensing5" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing5" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing5" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing5" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sensing5" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>36. You remember events by what I read "between the lines" about their meaning. </h6> <!--Intuition-->
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="intuition1" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition1" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition1" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition1" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition1" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>37. You solve problems by leaping between different ideas and possibilities. </h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="intuition2" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition2" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition2" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition2" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition2" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>38. You are interested in doing things that are new and different. </h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="intuition3" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition3" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition3" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition3" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition3" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>39. You like to see the big picture, then to find out the facts.  </h6>
+            <h6>Disagree  
+            <label class="radio">
+              <input type="radio" name="intuition4" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition4" id="myRadioId" class="radio__input" autocomplete="on" value="2">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition4" id="myRadioId" class="radio__input" autocomplete="on" value="3">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition4" id="myRadioId" class="radio__input" autocomplete="on" value="4">  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition4" id="myRadioId" class="radio__input" autocomplete="on" value="5">  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+          <h6>40. You trust impressions, symbols, and metaphors more than what I actually experienced.  </h6>
+            <h6>Disagree
+            <label class="radio">
+              <input type="radio" name="intuition5" id="myRadioId" class="radio__input" autocomplete="on" value="1" required  >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition5" id="myRadioId" class="radio__input" autocomplete="on" value="2" >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition5" id="myRadioId" class="radio__input" autocomplete="on" value="3" >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition5" id="myRadioId" class="radio__input" autocomplete="on" value="4" >  
+              <div class="radio__radio"></div>
+            </label>
+            <label class="radio">
+              <input type="radio" name="intuition5" id="myRadioId" class="radio__input" autocomplete="on" value="5" >  
+              <div class="radio__radio"></div>
+            </label>
+            Agree 
+            <hr>
+              <input type="email" class="form-control" id="inputemail" aria-describedby="emailHelp" placeholder="Enter email to get results by mail" aria-required="true" >
+              <p class="fw-bolder">Make sure you attempt all questions </p>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        
+      </section>
+      <main>
+        
+      </main>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script type="text/javascript" src="quiz.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
